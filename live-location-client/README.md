@@ -1,6 +1,3 @@
-Here’s the updated `README.md` with an example section added to demonstrate how to use the `live-location-client` package:
-
-````markdown
 # Live Location Client
 
 The `live-location-client` is a simple and configurable library for sending real-time live location data from the user's device to a server via WebSocket. This package is intended for frontend usage in web applications, enabling the client to send live GPS coordinates to a backend.
@@ -12,7 +9,7 @@ To install the package, run:
 ```bash
 npm install live-location-client
 ```
-````
+
 
 ## Usage
 
@@ -152,9 +149,9 @@ Feel free to open issues or pull requests for bug fixes, features, or improvemen
 
 ## Contact
 
-For any questions, you can reach out to [your-email@example.com](mailto:your-email@example.com).
+For any questions, you can reach out to [pateljash1511@gmail.com](mailto:pateljash1511@gmail.com).
 
-```
+
 
 ### Key Additions:
 
@@ -162,4 +159,3 @@ For any questions, you can reach out to [your-email@example.com](mailto:your-ema
 - **Code Walkthrough**: Each part of the code example is explained in simple terms to make it easy for users to understand the flow.
 
 Make sure to replace `ws://your-websocket-url` with your actual WebSocket URL and update any placeholders as per your specific project needs.
-```
