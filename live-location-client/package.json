@@ -1,0 +1,31 @@
+{
+  "name": "live-location-client",
+  "version": "0.0.1",
+  "description": "A lightweight package to send live location updates via WebSockets.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "location",
+    "websockets",
+    "live",
+    "tracking"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JASH-PATEL-6566/live-location-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@types/websocket": "^1.0.10",
+    "tsup": "^8.4.0"
+  }
+}
