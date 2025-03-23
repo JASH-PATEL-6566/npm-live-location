@@ -1,7 +1,7 @@
 {
-  "name": "live-location-client",
-  "version": "0.0.4",
-  "description": "A lightweight package to send live location updates via WebSockets.",
+  "name": "live-location-service",
+  "version": "0.0.1",
+  "description": "A service to receive live location updates and send them to Kafka.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -9,10 +9,10 @@
     "build": "tsup"
   },
   "keywords": [
-    "location",
     "websocket",
-    "live-location",
-    "gps"
+    "kafka",
+    "location",
+    "service"
   ],
   "repository": {
     "type": "git",
@@ -20,18 +20,21 @@
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^22.13.11",
-    "typescript": "^5.8.2"
-  },
   "dependencies": {
     "@types/websocket": "^1.0.10",
-    "@types/ws": "^8.18.0",
+    "dotenv": "^16.4.7",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.4",
     "tsup": "^8.4.0",
     "ws": "^8.18.1"
   },
   "bugs": {
     "url": "https://github.com/JASH-PATEL-6566/npm-live-location/issues"
   },
-  "homepage": "https://github.com/JASH-PATEL-6566/npm-live-location#readme"
+  "homepage": "https://github.com/JASH-PATEL-6566/npm-live-location#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "@types/ws": "^8.18.0",
+    "typescript": "^5.8.2"
+  }
 }
